@@ -18,7 +18,7 @@ ships <- subset(ships, is_parked == 0)
 #calculating the trip inital and final date and distance
 #I did not manage to calculate multiple unique trips per vessel. 
 #I could not find a way to find a start and end of a trip.
-#So if a ship shas ailed, stopped and sailed again, I couldn't capture that.  
+#So if a ship has sailed, stopped and sailed again, I couldn't capture that.  
 #I think, in order to count the trips, I would need a shapefile (poligon) of the ports, how ever I found only 4 of 6. 
 #If you know another way, could you please give me a tip about that? So I could try it again! 
 
