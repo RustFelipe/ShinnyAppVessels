@@ -59,7 +59,7 @@ server <-  function(input, output, session){
     map    
     })
   output$text <- renderText ({
-    HTML(paste("The vessel", react()$SHIPNAME, "sailed", react()$finalDistance, "meters"))
+    paste("The vessel", react()$SHIPNAME, "sailed", react()$finalDistance, "meters")
     
   })
   
